@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     TextView name, salary;
 
     //JSON STRING
-    String JSON_STRING = "{\"employee\":{\"name\":\"Mercy Ngatia\",\"salary\":5000}}";
+    String JSON_STRING = "{\"employee\":{\"name\":\"Mercy Ngatia\",\"salary\":50000}}";
 
     String namee, salaryy;
 
