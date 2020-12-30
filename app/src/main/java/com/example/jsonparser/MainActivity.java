@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     TextView name, salary;
 
     //JSON STRING
-    String JSON_STRING = "{\"employee\":{\"name\":\"Master Coding\",\"salary\":5000}}";
+    String JSON_STRING = "{\"employee\":{\"name\":\"Mercy Ngatia\",\"salary\":5000}}";
 
     String namee, salaryy;
 
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             //setting TextView
             name.setText("Name:"+ namee);
             salary.setText("Salary" + salaryy);
-            
+
 
         } catch (JSONException e) {
             e.printStackTrace();
